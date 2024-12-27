@@ -1,4 +1,4 @@
-### README: VLAN Configuration using VLAN Trunking Protocol (VTP)
+###VLAN Configuration using VLAN Trunking Protocol (VTP)
 
 #### Overview
 This project implements VLAN segmentation using **VLAN Trunking Protocol (VTP)** to centrally manage VLAN configurations across a network. The setup involves a **VTP Server** and multiple **VTP Clients** to ensure efficient and consistent VLAN propagation.
@@ -56,7 +56,7 @@ This project implements VLAN segmentation using **VLAN Trunking Protocol (VTP)**
 
 4. **Trunk Ports Configuration**
    - Trunk ports are configured on all switches to allow VLAN tagging and communication between switches:
-  
+   ```plaintext
    S5(config)#interface range GigabitEthernet 0/1-2
    S5(config-if-range)#switchport mode trunk
    ```
