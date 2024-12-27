@@ -1,4 +1,4 @@
-###VLAN Configuration using VLAN Trunking Protocol (VTP)
+###**VLAN Configuration using VLAN Trunking Protocol (VTP)**
 
 #### Overview
 This project implements VLAN segmentation using **VLAN Trunking Protocol (VTP)** to centrally manage VLAN configurations across a network. The setup involves a **VTP Server** and multiple **VTP Clients** to ensure efficient and consistent VLAN propagation.
